@@ -53,13 +53,13 @@ box-sizing: border-box;
   will-change: transform;
 }
 
-/* 
-  If you're not seeing the boxes bounce, you 
-  might have "reduce motion" selected in your OS! 
+/*
+  If you're not seeing the boxes bounce, you
+  might have "reduce motion" selected in your OS!
 */
 @media (prefers-reduced-motion: no-preference) {
   .box {
-    animation: 
+    animation:
       bounce var(--animation-duration)
       infinite alternate
       cubic-bezier(.2, .65, .6, 1);
@@ -82,7 +82,7 @@ box-sizing: border-box;
     100%{
         -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
-      
+
     }
 }
 .preloader.opacity-0{
@@ -170,7 +170,7 @@ box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
-.tablinks {  
+.tablinks {
   margin-right: 1%;
   background-color: #FDEFEF;
   color: black;
@@ -195,7 +195,7 @@ h5.eventname{
 .tab {
   overflow: hidden;
 }
-.tab button {  
+.tab button {
   background-color: #FDEFEF;
   color: black;
   float: left;
@@ -252,6 +252,13 @@ h1, h4{
   padding: 3% 10%;
 }
 
+/* ABOUT US */
+.about_us_text{
+  padding: 10%;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+}
+
 /* CARD */
 .team-column .card:hover{
   box-shadow: 0 2px 10px rgba(0,0,0,.55);
@@ -293,7 +300,7 @@ h1, h4{
     margin-right: 20px;
     max-width: 190px;
     max-height: 190px;
-    
+
     align-self: center;
 }
 .filler_img{
@@ -345,7 +352,7 @@ h1, h4{
 
 .attribute{
   	text-align: center;
-  } 
+  }
 .social-accunts{
 	text-align: center;
 }
@@ -359,4 +366,3 @@ footer li .fab{
   padding: 1%;
   padding-left: 5%;
 }
-
