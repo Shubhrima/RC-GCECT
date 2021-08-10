@@ -66,6 +66,27 @@ box-sizing: border-box;
   }
 }
 
+/* NAVBAR LOGOS */
+/* Navbar 1 logos */
+#logo_1 {
+  width: 150px;
+  height: 70px;
+}
+#logo_2 {
+  width: 120px;
+  height: 50px;
+}
+#logo_3 {
+  width: 120px;
+  height: 100px;
+}
+
+/* Navbar 2 logos */
+.rcgcect_logo{
+  height: 100px;
+  width: 250px;
+}
+
 
 .box.one {
   --bounce-height: -40px;
