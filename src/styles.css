@@ -309,6 +309,11 @@ h1, h4{
   font-size: 30px;
 }
 
+.aboutimage{
+  max-width: 400px;
+  float: right;
+}
+
 /* CARD */
 .team-column .card:hover{
   box-shadow: 0 2px 10px rgba(0,0,0,.55);
@@ -325,7 +330,7 @@ h1, h4{
 
 #team_member {
   text-align: center;
-  padding: 100px;
+  padding: 0 100px;
 }
 
 .team-text {
@@ -353,6 +358,7 @@ h1, h4{
 
     align-self: center;
 }
+
 .filler_img{
   width:150px;
 }
@@ -366,6 +372,17 @@ h1, h4{
     display: none;
   }
 } */
+.teamimage{
+    max-width: 350px;
+  }
+@media (max-width: 1300px) {
+  .teamimage{
+    display: none;
+  }
+}
+
+
+
 /*footer*/
 .footer-container {
   align-items: center;
@@ -417,3 +434,13 @@ footer li .fab{
   padding-left: 5%;
 }
 
+.made{
+  text-align: center;
+}
+.attribution, .attribution a{
+  color: lightgray;
+  float: right;
+}
+.attribution a:hover{
+  color: lightgray;
+}
