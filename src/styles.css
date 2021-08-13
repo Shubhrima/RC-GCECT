@@ -200,7 +200,7 @@ box-sizing: border-box;
 
 /*intro*/
 .intro img{
-  min-height: 200px;
+  min-height: 350px;
   margin: 0% 12%;
 }
 .textimg{
@@ -376,14 +376,15 @@ h1, h4{
   }
 } */
 .teamimage{
+    width: 100%;
     max-width: 450px;
   }
-@media (max-width: 1300px) {
-  .teamimage{
+
+@media (max-width:629px) {
+  img.teamimage{
     display: none;
   }
 }
-
 
 
 /*footer*/
