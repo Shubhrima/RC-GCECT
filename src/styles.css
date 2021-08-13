@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Indie+Flower&family=Open+Sans+Condensed:wght@300&display=swap');
 body{
     margin: 0;
@@ -66,6 +68,16 @@ box-sizing: border-box;
   }
 }
 
+.box.one {
+  --bounce-height: -40px;
+  --animation-duration: 400ms;
+  --bg: #C2FFD9;
+}
+
+
+.preloader.opacity-0{
+    opacity: 0.7;
+}
 /* NAVBAR LOGOS */
 /* Navbar 1 logos */
 #logo_1 {
@@ -88,16 +100,7 @@ box-sizing: border-box;
 }
 
 
-.box.one {
-  --bounce-height: -40px;
-  --animation-duration: 400ms;
-  --bg: #C2FFD9;
-}
 
-
-.preloader.opacity-0{
-    opacity: 0.7;
-}
 /*sticky bar*/
 .icon-bar {
   position: fixed;
@@ -238,7 +241,7 @@ box-sizing: border-box;
 }
 h5.eventname{
   text-align: center;
-  font-family: 'Andada Pro', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -305,8 +308,8 @@ h1, h4{
 /* ABOUT US */
 .about_us_text{
   padding: 2% 13%;
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
 }
 
 .aboutimage{
@@ -373,7 +376,7 @@ h1, h4{
   }
 } */
 .teamimage{
-    max-width: 350px;
+    max-width: 450px;
   }
 @media (max-width: 1300px) {
   .teamimage{
@@ -444,3 +447,38 @@ footer li .fab{
 .attribution a:hover{
   color: lightgray;
 }
+
+
+
+
+
+.slide-in-left {
+  -webkit-animation: slide-in-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
