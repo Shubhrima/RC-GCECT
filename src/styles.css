@@ -293,7 +293,56 @@ h5.eventname{
 summary{
   font-family: 'Roboto', sans-serif;
 }
+/*team*/
 
+.our-team{
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 15px 30px;
+    background: #fff;
+
+}
+.our-team .pic{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #17bebb;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.row .first{
+  margin: auto;
+}
+.our-team .title{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    color: #2e282a;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    color: #17bebb;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.our-team:hover .pic{
+    background: #17bebb;
+    border-radius: 50%;
+}
 
 /*team*/
 h1, h4{
@@ -317,95 +366,26 @@ h1, h4{
   float: right;
 }
 
-/* CARD */
-.team-column .card:hover{
-  box-shadow: 0 2px 10px rgba(0,0,0,.55);
-}
-.card-header{
-  background-color: var(--bg);
-  border: none;
-  font-family: 'Indie Flower', cursive;
-}
-.card_img{
-  height: 500px;
-  width: 500px;
-}
 
-#team_member {
-  text-align: center;
-  padding: 0 100px;
-}
-
-.team-text {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5rem;
-}
-
-.team-column {
-  padding: 3% 2%;
-}
-
-.card-img-top.member{
-  padding: 5%;
-  display: inline-flex;
-    height: 15vw;
-    width: 15vw;
-    min-width: 150px;
-    min-height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 20px;
-    max-width: 190px;
-    max-height: 190px;
-
-    align-self: center;
-}
-
-.filler_img{
-  width:150px;
-}
-.plant{
-  position: relative;
-  top:400px;
-  right: 140px;
-}
-/* @media (max-width: 1500px) {
-  .filler_img{
-    display: none;
-  }
-} */
-.teamimage{
-    width: 100%;
-    max-width: 450px;
-  }
-
-@media (max-width:629px) {
-  img.teamimage{
-    display: none;
-  }
-}
-
-
-/*footer*/
+/*social*/
 .footer-container {
   align-items: center;
   padding: 20px 0 30px;
 }
 .fa-icon {
   color: #000;
-  width: 32px;
-  height: 32px;
+  width: 16px;
+  height: 16px;
   display: inline-block;
-  line-height: 29px;
-  font-size: 15px;
+  line-height: 14px;
+  font-size: 8px;
   text-align: center;
 }
 .fa-icon.fa-icon-2x {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 24px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
   color: gray;
 }
 .linked-in:hover{
